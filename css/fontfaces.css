@@ -1,0 +1,13 @@
+@font-face {
+	font-family: Risque;
+	font-weight: normal;
+	font-style: normal;
+	src: url("../fonts/risque.ttf") format("truetype");
+}
+	
+@font-face {
+	font-family: Simonetta;
+	font-weight: normal;
+	font-style: normal;
+	src: url("../fonts/simonetta.ttf") format(truetype");
+}

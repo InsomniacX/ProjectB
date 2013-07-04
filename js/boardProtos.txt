@@ -1,0 +1,25 @@
+//prototypes of function headers Im expecting in the board object
+
+function isCenterSquare(x, y)
+//x and y are ints
+//returns true if and only if the square in position x and y is the trade/center square, false otherwise
+
+function numPlayers(x, y)
+//x and y are ints
+//returns an integer, that denotes the number of players in the square given by x and y
+
+function getOtherPlayers(playerId, x, y)
+//playerId, x, y all ints
+//returns an array containing the actual playerObjects that are in the square x and y, that do not have the playerId, playerId
+
+function getCenterX()
+//no paramaters
+//return an integer that corresponds to the center x index of the board
+
+
+function getCenterY()
+//no paramaters
+//return an integer that corresponds to the center y index of the board
+
+
+

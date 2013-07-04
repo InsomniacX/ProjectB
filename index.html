@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<title>Project B</title>
+	
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet"
+		href="css/mobile.css"
+		media="screen and (max-device-width: 768px)
+					and (orientation: portrait),
+				screen and (max-device-width: 1024px)
+					and (orientation: landscape)" />
+	
+	<script src="js/modernizr.js"></script>
+	<script src="js/loader.js"></script>
+	
+</head>
+
+<body>
+	<div id="game">
+		<div class="background"></div>
+		<div class="screen" id="mainMenu">
+			<h2 class="logo">Project B</h2>
+            <ul class="menu">
+                <li><button name="hotSeat">Hot Seat</button>
+                <li><button name="multiplayer">Multiplayer</button>
+                <li><button name="about">About</button>
+            </ul>
+		</div>
+		<div class="screen" id="hotSeatMenu1">
+		<p class="menu">Select number of players</p>
+            <ul class="menu">
+                <li><button name="2p">2 Players</button>
+                <li><button name="3p">3 Players</button>
+                <li><button name="4p">4 Players</button>
+				<li><button name="back">Go Back</button>
+            </ul>
+		</div>
+		<div class="screen" id="game-screen">
+			<div class="board">
+				<div class="boardRow">
+					<div class="quad">
+						<div class="hearts" id="topLeft"></div>
+					</div> 
+					<div class="quad">
+						<div class="spades" id="topMid"></div>
+					</div>
+					<div class="quad">
+						<div class="clubs" id="topRight"></div>
+					</div>
+					<div class="spacer" style="clear: both;"></div>
+				</div>
+				
+				<div class="boardRow">
+					<div class="quad">
+						<div class="diamonds" id="centerLeft"></div>
+					</div>
+					<div class="quad">
+						<div class="tradePost" id="centerMid"></div>
+					</div>
+					<div class="quad">
+						<div class="diamonds" id="centerRight"></div>
+					</div>
+					<div class="spacer" style="clear: both;"></div>
+				</div>
+				<div class="boardRow">
+					<div class="quad">
+						<div class="clubs" id="botLeft"></div>
+					</div>
+					<div class="quad">
+						<div class="spades" id="botMid"></div>
+					</div>
+					<div class="quad">
+						<div class="hearts" id="botRight"></div>
+					</div>
+					<div class="spacer" style="clear: both;"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
