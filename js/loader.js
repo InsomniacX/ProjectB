@@ -18,6 +18,8 @@ Modernizr.load([{
 		"js/turnStructure.js",
 		"js/screens.MainMenu.js",
 		"js/screens.hotSeatMenu1.js",
+		"js/screens.hotSeatMenu2.js",
+		"js/screens.shipSelectScreen.js",
 		"js/screens.game-screen.js"
 	]
 },{

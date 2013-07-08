@@ -23,12 +23,20 @@ projectb.dom = (function() {
         }
         element.addEventListener(event, handler, false)
     }
+	
+	function unbind(element, event, handler) {
+		if (typeof element == "string"){
+			element = $(element)[0];
+		}
+		element.removeEventListener(event, handler, false);
+	}
 
     return {
         $ : $,
         hasClass : hasClass,
         addClass : addClass,
         removeClass : removeClass,
-        bind : bind
+        bind : bind,
+		unbind: unbind
     };
 })();

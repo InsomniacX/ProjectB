@@ -8,14 +8,11 @@ projectb.screens["hotSeatMenu1"] = (function(){
             if (e.target.nodeName.toLowerCase() === "button") {
                 var action = e.target.getAttribute("name");
                 if (action=="2p"){
-					alert("2p");
-					game.showScreen("game-screen");
+					game.showScreen("hotSeatMenu2", 2);
 				}else if (action=="3p"){
-					alert("3p");
-					game.showScreen("game-screen");
+					game.showScreen("hotSeatMenu2", 3);
 				}else if (action=="4p"){
-					alert("4p");
-					game.showScreen("game-screen");
+					game.showScreen("hotSeatMenu2", 4);
 				}else if (action=="back"){
 					game.showScreen("mainMenu");
 				}else{

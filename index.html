@@ -30,8 +30,9 @@
                 <li><button name="about">About</button>
             </ul>
 		</div>
+		
 		<div class="screen" id="hotSeatMenu1">
-		<p class="menu">Select number of players</p>
+			<p class="menu">Select number of players</p>
             <ul class="menu">
                 <li><button name="2p">2 Players</button>
                 <li><button name="3p">3 Players</button>
@@ -39,6 +40,34 @@
 				<li><button name="back">Go Back</button>
             </ul>
 		</div>
+		
+		<div class="screen" id="hotSeatMenu2">
+			<p class="menu">Player Setup</p>
+			<ul class="menu" id="hsMenu2">
+				<li id="hsMenu2Item1"><p class="menuItem">Player 1:</p><input type="text" id="pname1" />
+				<li id="hsMenu2Item2"><p class="menuItem">Player 2:</p><input type="text" id="pname2" />
+				<li id="hsMenu2Item3"><p class="menuItem">Player 3:</p><input type="text" id="pname3" />
+				<li id="hsMenu2Item4"><p class="menuItem">Player 4:</p><input type="text" id="pname4" />
+				<li><button name="next">Next</button>
+				<li><button name="back">Go Back</button>
+			</ul>
+		</div>
+		
+		<div class="screen" id="shipSelectScreen">
+			<!-- Could do dynamic here instead of static but, need to add a bunch of code every time
+			we add a ship anyways so the efficiency loss of creating dynamic dom was not worth the programming
+			efficiency gained by doing it dynamic as opposed to static-->
+			<p class="menu">Ship Select</p>
+			<p class="menuItem" id="shipSelectPlayerName"></p><br />
+			<ul class="menu">
+				<li><button id="ssAShipButton" name="attackShip"><image src="img/attack_ship.jpg" /></button>
+				<li><button id="ssDShipButton" name="defenseShip"><image src="img/defense_ship.jpg" /></button>
+				<li><button id="ssRHShipButton" name="resourceHoarder"><image src="img/resource_hoarder.jpg" /></button>
+				<li><button id="ssVPShipButton" name="vpRush"><image src="img/vp_rush.jpg" /></button>
+				<li><button id="ssNextButton" name="next">Next</button>
+			</ul>
+		</div>
+		
 		<div class="screen" id="game-screen">
 			<div class="board">
 				<div class="boardRow">

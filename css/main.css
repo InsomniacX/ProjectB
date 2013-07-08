@@ -136,3 +136,73 @@ ul.menu li button:active {
 p.menu {
 	color : rgb(0, 255, 255);
 }
+
+p.menuItem{
+	color : rgb(0, 255, 255);
+	font-size: .5em;
+	display: inline;
+}
+
+#hsMenu2 li{
+	margin: 0em;
+}
+
+.invisible{
+	display: none !important;
+}
+
+.visible-block{
+	display: block !important;
+}
+
+.visible-inline{
+	display: inline !important;
+}
+
+#shipSelectScreen ul{
+	display: inline;
+	margin: 0em;
+	padding: 0em;
+}
+
+#shipSelectScreen li{
+	display: inline;
+	margin: 0em;
+	padding: 0em;
+}
+
+#shipSelectScreen button{
+	border : 0.1em solid rgb(0,0,153);
+	height: 53px;
+	width: 53px;
+	display: inline;
+	margin: 0px;
+	padding: 0px;
+}
+
+#shipSelectScreen button:hover{
+	border: 0.1em solid rgb(255, 215, 0);
+}
+
+#shipSelectScreen img{
+	height: 49px;
+	width: 49px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.ShipSelectPlayer1 {
+	border: 0.1em solid rgb(255, 0, 0) !important;
+}
+
+.ShipSelectPlayer2 {
+	border: 0.1em solid rgb(0, 255, 0) !important;
+}
+
+.ShipSelectPlayer3 {
+	border: 0.1em solid rgb(0, 0, 255) !important;
+}
+
+.ShipSelectPlayer4 {
+	border: 0.1em solid rgb(255, 255, 255) !important;
+}

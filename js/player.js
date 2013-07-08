@@ -93,6 +93,9 @@ projectb.player = function() {
 		setVP: setVP,
 		addVP: addVP,
 		getTokenImage: getTokenImage,
-		setTokenImage: setTokenImage
+		setTokenImage: setTokenImage,
+		setPlayerLocation: setPlayerLocation,
+		getPlayerX: getPlayerX,
+		getPlayerY: getPlayerY
 	}
-}();
+}
